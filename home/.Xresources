@@ -1,0 +1,74 @@
+Xcursor.theme: Hackneyed-Dark
+Xcursor.size: 24
+URxvt.termName: rxvt-unicode-256color
+URxvt.loginShell: false
+URxvt.scrollBar: false
+URxvt.scrollstyle: plain
+URxvt.scrollTtyOutput: false
+URxvt.scrollTtyKeypress: true
+URxvt.secondaryScroll: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.jumpScroll: false
+
+URxvt.font:           xft:Liberation Mono:style=Regular:size=17:antialias=true:hinting=true,xft:Lilex Nerd Font Mono:size=14
+URxvt.boldFont:       xft:Liberation Mono:style=Bold:size=17:antialias=true:hinting=true,xft:Lilex Nerd Font Mono:size=14
+URxvt.italicFont:     xft:Liberation Mono:style=Italic:size=17:antialias=true:hinting=true,xft:Lilex Nerd Font Mono:size=14
+URxvt.boldItalicFont: xft:Liberation Mono:style=Bold Italic:size=17:antialias=true:hinting=true,xft:Lilex Nerd Font Mono:size=14
+
+URxvt.geometry: 90x25
+URxvt.internalBorder: 19
+URxvt.externalBorder: 0
+URxvt.background:  #000000
+URxvt.foreground:  #a0a0a0
+URxvt.background.expr:
+
+URxvt.color0:      #000000
+URxvt.color8:      #000000
+
+URxvt.color1:      #404040
+URxvt.color9:      #404040
+
+URxvt.color2:      #606060
+URxvt.color10:     #606060
+
+URxvt.color3:      #808080
+URxvt.color11:     #808080
+
+URxvt.color4:      #404040
+URxvt.color12:     #404040
+
+URxvt.color5:      #606060
+URxvt.color13:     #606060
+
+URxvt.color6:      #808080
+URxvt.color14:     #808080
+
+URxvt.color7:      #a0a0a0
+URxvt.color15:     #a0a0a0
+
+URxvt.cursorColor:  #a0a0a0
+URxvt.cursorColor2: #000000
+URxvt.highlightColor: #202020
+URxvt.highlightTextColor: #a0a0a0
+
+URxvt.colorBD:      #a0a0a0
+URxvt.colorUL:      #a0a0a0
+URxvt.colorIT:      #a0a0a0
+
+URxvt.cursorBlink: false
+URxvt.cursorUnderline: false
+URxvt.urgentOnBell: false
+URxvt.visualBell: false
+URxvt.saveLines: 10000
+URxvt.mouseWheelScrollPage: false
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard if length($self->selection // q{})
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+
+URxvt.keysym.Control-BackSpace: \027
+URxvt.keysym.Control-Delete: \033[3;5~
+URxvt.keysym.Control-Left: \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C

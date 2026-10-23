@@ -1,0 +1,3 @@
+exec 2>&1
+nft -f /etc/nftables/host-privacy.nft || exit 1
+exec chpst -b host-privacy pause

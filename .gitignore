@@ -1,0 +1,8 @@
+*.o
+/slstatus/slstatus
+/slstatus/*.tar.gz
+*.key
+*.pem
+*.log
+.env*
+*~
